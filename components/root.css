@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
+
+/* import components */
+@import url(./avatar/avatar.css);
+
+/* global color variables and font family */
+:root {
+  --BRAND-COLOR: #ef4444;
+  --BRAND-COLOR-LIGHT: #fecaca;
+  --BRAND-COLOR-DARK: #dc2626;
+
+  --YELLOW-COLOR: #fde047;
+  --YELLOW-COLOR-LIGHT: #fef9c3;
+  --YELLOW-COLOR-DARK: #eab308;
+
+  --WHITE-COLOR: white;
+
+  font-family: "Montserrat", sans-serif;
+}

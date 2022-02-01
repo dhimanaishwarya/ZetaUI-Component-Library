@@ -1,0 +1,35 @@
+.avatar {
+  border-radius: 50%;
+  max-width: 7rem;
+  max-height: 7rem;
+}
+
+.avatar-gradient {
+  background-image: conic-gradient(
+    from 220deg,
+    var(--YELLOW-COLOR) 0deg,
+    var(--BRAND-COLOR-DARK) 90deg,
+    var(--YELLOW-COLOR-DARK)
+  );
+}
+
+/*32px,48,64px */
+.avatar-sm {
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+.avatar-md {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.avatar-lg {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
+.avatar-xl {
+  max-width: 8rem;
+  max-height: 8rem;
+}
