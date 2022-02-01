@@ -2,6 +2,7 @@
 
 /* import components */
 @import url(./avatar/avatar.css);
+@import url(./badge/badge.css);
 
 /* global color variables and font family */
 :root {
@@ -12,6 +13,13 @@
   --YELLOW-COLOR: #fde047;
   --YELLOW-COLOR-LIGHT: #fef9c3;
   --YELLOW-COLOR-DARK: #eab308;
+
+  --CYAN-COLOR: #22d3ee;
+  --CYAN-COLOR-LIGHT: #a5f3fc;
+
+  --GREEN-COLOR: #16a34a;
+
+  --ZINC-COLOR: #d4d4d8;
 
   --WHITE-COLOR: white;
 
