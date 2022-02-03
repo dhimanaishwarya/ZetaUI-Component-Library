@@ -1,1 +1,32 @@
 @import url(./components/root.css);
+
+.wrapper {
+  min-height: 100vh;
+  /* grid styles */
+  display: grid;
+  grid-template-areas:
+    "hero   hero   hero"
+    "content   content   content"
+    "footer   footer   footer";
+}
+
+.hero {
+  padding: 2rem 1rem;
+  background-color: var(--ZINC-COLOR-LIGHT);
+  grid-area: hero;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--BRAND-COLOR-DARK);
+  text-align: center;
+  color: var(--ZINC-COLOR-LIGHT);
+}
+
+img {
+  width: 60%;
+}
