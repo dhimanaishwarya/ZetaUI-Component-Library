@@ -1,6 +1,7 @@
 @import url(./components/root.css);
 
 .wrapper {
+  text-align: center;
   min-height: 100vh;
   /* grid styles */
   display: grid;
@@ -13,20 +14,62 @@
 .hero {
   padding: 2rem 1rem;
   background-color: var(--ZINC-COLOR-LIGHT);
+  /* grid styles */
   grid-area: hero;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* to autofit(auto-fit keyword allows us to wrap our columns into rows) the repeated fragment with size range greater than or equal to 240px and less than or equal to 1fr */
 }
 
 .content {
+  padding: 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
   grid-area: content;
 }
 
 .footer {
   grid-area: footer;
   background-color: var(--BRAND-COLOR-DARK);
-  text-align: center;
   color: var(--ZINC-COLOR-LIGHT);
+  font-size: 0.75rem;
+  padding: 0.75rem;
+}
+
+p {
+  font-size: 2rem;
+  color: var(--ZINC-COLOR-DARK);
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--BRAND-COLOR);
+  border-radius: 0.25rem;
+  display: inline-block;
+  transition: all 0.3s;
+  font-size: 2rem;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 img {
-  width: 60%;
+  width: 80%;
+  height: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  color: var(--BRAND-COLOR-DARK);
 }
