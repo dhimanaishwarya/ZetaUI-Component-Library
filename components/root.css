@@ -20,8 +20,16 @@
   --GREEN-COLOR: #16a34a;
 
   --ZINC-COLOR: #d4d4d8;
+  --ZINC-COLOR-LIGHT: #fafafa;
+  --ZINC-COLOR-DARK: #504e4e;
 
   --WHITE-COLOR: white;
 
   font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
