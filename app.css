@@ -20,7 +20,7 @@
   align-items: center;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  /* to autofit(auto-fit keyword allows us to wrap our columns into rows) the repeated fragment with size range greater than or equal to 240px and less than or equal to 1fr */
+  /* to autofitthe repeated fragment with size range greater than or equal to 240px and less than or equal to 1fr */
 }
 
 .content {
@@ -37,13 +37,14 @@
 
 .footer {
   grid-area: footer;
+  align-self: end;
   background-color: var(--BRAND-COLOR-DARK);
   color: var(--ZINC-COLOR-LIGHT);
   font-size: 0.75rem;
-  padding: 0.75rem;
+  padding: 1rem;
 }
 
-p {
+.hero-paragraph {
   font-size: 2rem;
   color: var(--ZINC-COLOR-DARK);
   padding: 2rem;
@@ -68,8 +69,50 @@ img {
   height: auto;
 }
 
-h1 {
+.hero-article-h1 {
   font-size: 4rem;
   padding-bottom: 1rem;
   color: var(--BRAND-COLOR-DARK);
+}
+
+/* common styles */
+
+.side {
+  grid-area: aside;
+  background-color: var(--ZINC-COLOR-LIGHT);
+  align-self: center;
+}
+
+.wrapper-pages {
+  background-color: var(--ZINC-COLOR-LIGHT);
+  grid-template-areas:
+    "header   header   header"
+    "aside   content   content"
+    "aside   content   content"
+    "footer   footer   footer";
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: start;
+  grid-area: header;
+  border-bottom: 1px solid var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.main-header-h1 {
+  font-size: 2.5rem;
+  padding: 1.5rem;
+}
+
+.main-nav {
+  text-decoration: none;
+}
+
+.main-nav-link {
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
 }
