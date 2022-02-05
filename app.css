@@ -6,33 +6,50 @@
   /* grid styles */
   display: grid;
   grid-template-areas:
-    "hero   hero   hero"
-    "content   content   content"
-    "footer   footer   footer";
+    "hero"
+    "content"
+    "footer";
 }
 
 .hero {
-  padding: 2rem 1rem;
   background-color: var(--ZINC-COLOR-LIGHT);
-  /* grid styles */
   grid-area: hero;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  /* to autofitthe repeated fragment with size range greater than or equal to 240px and less than or equal to 1fr */
+}
+
+.hero-article > h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.hero-article > p {
+  font-size: 1.5rem;
+  color: var(--ZINC-COLOR-DARK);
+  padding: 2rem 5rem;
+}
+
+img {
+  width: 30%;
 }
 
 .content {
   padding: 2rem;
-  /* grid styles */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  align-content: stretch;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
   grid-area: content;
+  align-self: end;
+}
+
+a {
+  text-decoration: none;
+  color: var(--BRAND-COLOR);
+  border-radius: 0.25rem;
+  transition: all 0.3s;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .footer {
@@ -42,37 +59,11 @@
   color: var(--ZINC-COLOR-LIGHT);
   font-size: 0.75rem;
   padding: 1rem;
+  text-align: center;
 }
 
-.hero-paragraph {
-  font-size: 2rem;
-  color: var(--ZINC-COLOR-DARK);
-  padding: 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: var(--BRAND-COLOR);
-  border-radius: 0.25rem;
-  display: inline-block;
-  transition: all 0.3s;
-  font-size: 2rem;
-}
-
-a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-img {
-  width: 80%;
-  height: auto;
-}
-
-.hero-article-h1 {
-  font-size: 4rem;
-  padding-bottom: 1rem;
-  color: var(--BRAND-COLOR-DARK);
+ul {
+  list-style-type: none;
 }
 
 /* common styles */
@@ -80,10 +71,23 @@ img {
 .side {
   grid-area: aside;
   background-color: var(--ZINC-COLOR-LIGHT);
-  align-self: center;
+  text-align: center;
+  /* font-size: 1rem; */
+  /* padding: 2rem; */
 }
 
+.side h2 {
+  padding: 2rem;
+}
+
+.side a {
+  display: block;
+}
+
+/* style for pages */
 .wrapper-pages {
+  min-height: 100vh;
+  display: grid;
   background-color: var(--ZINC-COLOR-LIGHT);
   grid-template-areas:
     "header   header   header"
@@ -93,26 +97,35 @@ img {
 }
 
 .main-header {
+  border-bottom: 1px solid var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR-DARK);
+  padding: 1.5rem;
+  grid-area: header;
+  /* flex styles */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-self: start;
-  grid-area: header;
-  border-bottom: 1px solid var(--BRAND-COLOR-LIGHT);
+}
+
+.main-header > h1 {
+  font-size: 2.5rem;
+  /* padding: 1.5rem; */
+}
+
+.active {
   color: var(--BRAND-COLOR-DARK);
 }
-
-.main-header-h1 {
-  font-size: 2.5rem;
-  padding: 1.5rem;
-}
-
-.main-nav {
-  text-decoration: none;
-}
-
-.main-nav-link {
-  /* display: inline-block; */
+.section-paragraph {
+  color: var(--ZINC-COLOR-DARK);
   font-size: 1.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
+
+.section-heading {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+/* .section-pages {
+  grid-area: content;
+} */
