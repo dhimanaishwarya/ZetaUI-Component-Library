@@ -1,4 +1,5 @@
 .avatar {
+  border: thin solid var(--WHITE-COLOR);
   border-radius: 50%;
   max-width: 7rem;
   max-height: 7rem;

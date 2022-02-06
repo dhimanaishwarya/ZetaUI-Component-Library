@@ -28,7 +28,7 @@
   padding: 2rem 5rem;
 }
 
-img {
+.hero-img {
   width: 30%;
 }
 
@@ -62,18 +62,11 @@ a:hover {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-}
-
 /* common styles */
-
 .side {
   grid-area: aside;
   background-color: var(--ZINC-COLOR-LIGHT);
   text-align: center;
-  /* font-size: 1rem; */
-  /* padding: 2rem; */
 }
 
 .side h2 {
@@ -109,7 +102,6 @@ ul {
 
 .main-header > h1 {
   font-size: 2.5rem;
-  /* padding: 1.5rem; */
 }
 
 .active {
@@ -122,10 +114,6 @@ ul {
 }
 
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
-
-/* .section-pages {
-  grid-area: content;
-} */

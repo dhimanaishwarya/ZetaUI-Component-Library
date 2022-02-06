@@ -1,7 +1,12 @@
 .badge {
   position: relative;
-  width: fit-content;
+  width: max-content;
   height: fit-content;
+}
+
+/* style for heading with badge */
+.badge-heading-text {
+  margin-top: 1rem;
 }
 
 .badge-heading {
@@ -11,6 +16,39 @@
   background-color: var(--CYAN-COLOR);
 }
 
+/* style for badge with icon */
+.badge-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  position: relative;
+  padding: 0.4rem;
+}
+
+.badge-icon-count {
+  position: absolute;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-items: center;
+  background-color: var(--YELLOW-COLOR);
+  border: thin solid var(--WHITE-COLOR);
+  display: flex;
+  justify-content: center;
+  right: 0;
+  top: 0;
+}
+
+/* styles for avatar bagde */
+.badge-status {
+  border-radius: 50%;
+  bottom: 0;
+  height: 1.3rem;
+  position: absolute;
+  right: 5%;
+  width: 1.3rem;
+}
+
 .badge-avatar {
   position: absolute;
   border-radius: 50%;
@@ -18,18 +56,6 @@
   width: 1rem;
   bottom: 0;
   right: 0;
-}
-
-.badge-icon {
-  position: absolute;
-  border-radius: 50%;
-  height: 1.2rem;
-  width: 1.2rem;
-  text-align: center;
-  background-color: var(--YELLOW-COLOR);
-  top: 0;
-  right: -1rem;
-  color: var(--BRAND-COLOR-DARK);
 }
 
 .badge-online {
@@ -44,6 +70,6 @@
   background-color: var(--YELLOW-COLOR-DARK);
 }
 
-.fas {
-  color: var(--BRAND-COLOR-DARK);
+.avatar-badge-icon {
+  color: var(--ZINC-COLOR-DARK);
 }
