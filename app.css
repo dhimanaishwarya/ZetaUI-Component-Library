@@ -35,7 +35,6 @@
 .content {
   padding: 2rem;
   grid-area: content;
-  /* align-self: end; */
 }
 
 .link {

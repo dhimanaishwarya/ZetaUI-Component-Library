@@ -59,6 +59,7 @@
   color: var(--WHITE-COLOR);
 }
 
+/* outline button styles */
 .btn-error-outline {
   border: thin solid var(--BRAND-COLOR-LIGHT);
   color: var(--BRAND-COLOR);
