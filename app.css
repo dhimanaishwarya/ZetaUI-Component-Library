@@ -1,0 +1,119 @@
+@import url(./components/root.css);
+
+.wrapper {
+  text-align: center;
+  min-height: 100vh;
+  /* grid styles */
+  display: grid;
+  grid-template-areas:
+    "hero"
+    "content"
+    "footer";
+}
+
+.hero {
+  background-color: var(--ZINC-COLOR-LIGHT);
+  grid-area: hero;
+}
+
+.hero-article > h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.hero-article > p {
+  font-size: 1.5rem;
+  color: var(--ZINC-COLOR-DARK);
+  padding: 2rem 5rem;
+}
+
+.hero-img {
+  width: 30%;
+}
+
+.content {
+  padding: 2rem;
+  grid-area: content;
+  align-self: end;
+}
+
+a {
+  text-decoration: none;
+  color: var(--BRAND-COLOR);
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.footer {
+  grid-area: footer;
+  align-self: end;
+  background-color: var(--BRAND-COLOR-DARK);
+  color: var(--ZINC-COLOR-LIGHT);
+  font-size: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* common styles */
+.side {
+  grid-area: aside;
+  background-color: var(--ZINC-COLOR-LIGHT);
+  text-align: center;
+}
+
+.side h2 {
+  padding: 2rem;
+}
+
+.side a {
+  display: block;
+}
+
+/* style for pages */
+.wrapper-pages {
+  min-height: 100vh;
+  display: grid;
+  background-color: var(--ZINC-COLOR-LIGHT);
+  grid-template-areas:
+    "header   header   header"
+    "aside   content   content"
+    "aside   content   content"
+    "footer   footer   footer";
+}
+
+.main-header {
+  border-bottom: 1px solid var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR-DARK);
+  padding: 1.5rem;
+  grid-area: header;
+  /* flex styles */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header > h1 {
+  font-size: 2.5rem;
+}
+
+.active {
+  color: var(--BRAND-COLOR-DARK);
+}
+.section-paragraph {
+  color: var(--ZINC-COLOR-DARK);
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
