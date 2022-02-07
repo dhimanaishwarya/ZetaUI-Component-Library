@@ -1,0 +1,37 @@
+.alert {
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 1rem 0;
+  max-width: 25rem;
+  padding: 1rem;
+}
+
+.alert-danger {
+  background: var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.alert-info {
+  background: var(--CYAN-COLOR-LIGHT);
+  color: var(--CYAN-COLOR-DARK);
+}
+
+.alert-primary {
+  border: 2px solid var(--BRAND-COLOR-DARK);
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.alert-secondary {
+  border: 2px solid var(--YELLOW-COLOR-DARK);
+  color: var(--YELLOW-COLOR-DARK);
+}
+
+.alert-success {
+  background: var(--GREEN-COLOR-LIGHT);
+  color: var(--GREEN-COLOR-DARK);
+}
+
+.alert-warning {
+  background: var(--YELLOW-COLOR-LIGHT);
+  color: var(--ZINC-COLOR-DARK);
+}

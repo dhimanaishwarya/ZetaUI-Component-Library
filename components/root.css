@@ -3,6 +3,11 @@
 /* import components */
 @import url(./avatar/avatar.css);
 @import url(./badge/badge.css);
+@import url(./alert/alert.css);
+@import url(./button/button.css);
+@import url(./card/card.css);
+@import url(./image/image.css);
+@import url(./input/input.css);
 
 /* global color variables and font family */
 :root {
@@ -16,8 +21,11 @@
 
   --CYAN-COLOR: #22d3ee;
   --CYAN-COLOR-LIGHT: #a5f3fc;
+  --CYAN-COLOR-DARK: #164e63;
 
   --GREEN-COLOR: #16a34a;
+  --GREEN-COLOR-LIGHT: #bbf7d0;
+  --GREEN-COLOR-DARK: #14532d;
 
   --ZINC-COLOR: #d4d4d8;
   --ZINC-COLOR-LIGHT: #fafafa;
