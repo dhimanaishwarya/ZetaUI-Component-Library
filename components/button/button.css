@@ -1,0 +1,80 @@
+.btn {
+  background: none;
+  border: none;
+  margin: 0.625rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Floating Button */
+.btn-floating {
+  background: var(--BRAND-COLOR-DARK);
+  color: var(--WHITE-COLOR);
+  border: medium solid var(--BRAND-COLOR-LIGHT);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+}
+
+.btn-link {
+  font-size: medium;
+  color: var(--BTN-LINK-COLOR);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* solid button */
+.btn-default {
+  background-color: var(--ZINC-COLOR);
+}
+
+.btn-error-solid {
+  background: var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR);
+  border: thin solid var(--BRAND-COLOR-LIGHT);
+}
+
+.btn-primary-solid {
+  background: var(--BRAND-COLOR-DARK);
+  color: var(--WHITE-COLOR);
+}
+
+.btn-secondary-solid {
+  background: var(--YELLOW-COLOR-DARK);
+  color: var(--WHITE-COLOR);
+}
+
+.btn-success-solid {
+  background: var(--GREEN-COLOR);
+  color: var(--WHITE-COLOR);
+}
+
+.btn-error-outline {
+  border: thin solid var(--BRAND-COLOR-LIGHT);
+  color: var(--BRAND-COLOR);
+}
+
+.btn-primary-outline {
+  border: thin solid var(--BRAND-COLOR-DARK);
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.btn-secondary-outline {
+  border: thin solid var(--YELLOW-COLOR-DARK);
+  color: var(--YELLOW-COLOR-DARK);
+}
+
+.btn-success-outline {
+  border: thin solid var(--GREEN-COLOR-DARK);
+  color: var(--GREEN-COLOR-DARK);
+}
