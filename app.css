@@ -41,7 +41,7 @@
 a {
   text-decoration: none;
   color: var(--BRAND-COLOR);
-  border-radius: 0.25rem;
+  border-radius: 4px;
   transition: all 0.3s;
   font-size: 1.4rem;
   padding: 1rem;
@@ -109,7 +109,7 @@ a:hover {
 }
 .section-paragraph {
   color: var(--ZINC-COLOR-DARK);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 1rem;
 }
 

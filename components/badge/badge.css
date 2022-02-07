@@ -11,7 +11,7 @@
 
 .badge-heading {
   position: absolute;
-  top: -0.5rem;
+  top: -8px;
   border-radius: 20%;
   background-color: var(--CYAN-COLOR);
 }
@@ -22,7 +22,7 @@
   border: none;
   font-size: 1.1rem;
   position: relative;
-  padding: 0.4rem;
+  padding: 6px;
 }
 
 .badge-icon-count {
