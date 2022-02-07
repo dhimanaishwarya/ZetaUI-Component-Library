@@ -130,3 +130,11 @@
 .component-div-column {
   flex-direction: column;
 }
+
+.code-iframe {
+  width: 790px;
+  height: 262px;
+  border: thin solid var(--BORDER-COLOR);
+  transform: scale(1);
+  overflow: hidden;
+}
