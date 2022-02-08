@@ -35,10 +35,9 @@
 .content {
   padding: 2rem;
   grid-area: content;
-  align-self: end;
 }
 
-a {
+.link {
   text-decoration: none;
   color: var(--BRAND-COLOR);
   border-radius: 4px;
@@ -47,7 +46,7 @@ a {
   padding: 1rem;
 }
 
-a:hover {
+.link:hover {
   opacity: 0.8;
   text-decoration: underline;
 }
@@ -111,9 +110,31 @@ a:hover {
   color: var(--ZINC-COLOR-DARK);
   font-size: 1.3rem;
   padding: 1rem;
+  max-width: fit-content;
 }
 
 .section-heading {
   font-size: 1.5rem;
   padding: 1rem;
+}
+
+.section-sub-heading {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.component-div {
+  display: flex;
+}
+
+.component-div-column {
+  flex-direction: column;
+}
+
+.code-iframe {
+  width: 49rem;
+  height: 16rem;
+  border: thin solid var(--BORDER-COLOR);
+  transform: scale(1);
+  overflow: hidden;
 }
