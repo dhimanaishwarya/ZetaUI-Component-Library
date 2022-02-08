@@ -132,8 +132,8 @@
 }
 
 .code-iframe {
-  width: 790px;
-  height: 262px;
+  width: 49rem;
+  height: 16rem;
   border: thin solid var(--BORDER-COLOR);
   transform: scale(1);
   overflow: hidden;
