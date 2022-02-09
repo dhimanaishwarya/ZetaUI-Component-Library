@@ -24,6 +24,7 @@
   max-width: 40rem;
   padding: 1rem;
   box-shadow: 2px 4px 7px var(--BORDER-COLOR);
+  margin-bottom: 1rem;
 }
 
 .input {
