@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="../app.css">
+    <title>Avatar</title>
+</head>
+
+<body>
+    <div class="wrapper-pages">
+        <header class="main-header">
+            <h1>Zeta UI</h1>
+            <nav>
+                <a href="../index.html" class="link">HOME</a>
+                <a href="https://github.com/dhimanaishwarya/ZetaUI-Component-Library" class="link">GITHUB</a>
+            </nav>
+        </header>
+        <aside class="side">
+            <h2>Components</h2>
+            <a href="../pages/avatar.html" class="link main-nav-link">Avatar</a>
+            <a href="../pages/badge.html" class="link main-nav-link">Badge</a>
+            <a href="../pages/button.html" class="link main-nav-link ">Button</a>
+            <a href="../pages/alert.html" class="link main-nav-link">Alert</a>
+            <a href="../pages/card.html" class="link main-nav-link">Card</a>
+            <a href="../pages/image.html" class="link main-nav-link">Image</a>
+            <a href="../pages/input.html" class="link main-nav-link active">Input</a>
+        </aside>
+        <section class="section-pages content">
+            <h2 class="section-heading">Input</h2>
+            <p class="section-paragraph">Input components for taking input data from the user.
+            </p>
+            <section>
+                <h3 class="section-sub-heading">Textbox</h3>
+                <div class="textarea-wrapper">
+                    <label for="textarea"></label>
+                    <textarea id="textarea" class="textarea" name="textarea"
+                        placeholder="Write your comments here."></textarea>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522textarea-wrapper%2522%253E%250A%253Clabel%2520for%253D%2522textarea%2522%253E%253C%252Flabel%253E%250A%253Ctextarea%2520id%253D%2522textarea%2522%2520class%253D%2522textarea%2522%2520name%253D%2522textarea%2522%2520%250Aplaceholder%253D%2522Write%2520your%2520comments%2520here.%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section>
+                <h3 class="section-sub-heading">Simple Input</h3>
+                <div>
+                    <form class="form">
+                        <input class="input" type="email" name="email" placeholder="Please enter your email" />
+                        <input class="input" type="password" name="password" placeholder="Please enter your password" />
+                        <button class="btn btn-primary-solid">SUBMIT</button>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">Error Input</h3>
+                <div>
+                    <form class="form">
+                        <span class="msg-error">Incorrect Email or Password</span>
+                        <input class="input input-error" type="email" name="email"
+                            placeholder="Please enter your email" />
+                        <input class="input input-error" type="password" name="password"
+                            placeholder="Please enter your password" />
+                        <button class="btn btn-primary-solid">SUBMIT</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+        <footer class="footer">
+            &copy; 2022. Made with ❤
+        </footer>
+</body>
+
+</html>

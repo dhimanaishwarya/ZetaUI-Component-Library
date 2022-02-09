@@ -1,0 +1,53 @@
+/* textarea styles */
+.textarea {
+  border: medium solid var(--ZINC-COLOR);
+  border-radius: 8px;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5em;
+  min-height: 12rem;
+  padding: 1.2rem;
+  min-width: 35rem;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.textarea:focus {
+  outline: thin solid var(--BRAND-COLOR-LIGHT);
+}
+
+/* form input styles  */
+.form {
+  border: medium solid var(--ZINC-COLOR);
+  background: var(--ZINC-COLOR-LIGHT);
+  border-radius: 8px;
+  max-width: 40rem;
+  padding: 1rem;
+  box-shadow: 2px 4px 7px var(--BORDER-COLOR);
+}
+
+.input {
+  background: var(--WHITE-COLOR);
+  border: thin solid var(--ZINC-COLOR);
+  border-radius: 1rem;
+  color: var(--FONT-COLOR);
+  display: block;
+  font-size: 1rem;
+  margin: 1rem 0.625rem;
+  padding: 1.5rem;
+  width: 90%;
+}
+
+.input-error {
+  border: thin solid var(--BRAND-COLOR);
+}
+
+.input:focus {
+  outline: thin solid var(--BRAND-COLOR-LIGHT);
+}
+
+.msg-error {
+  color: var(--BRAND-COLOR);
+  display: inline-block;
+  padding: 0.7rem;
+}
