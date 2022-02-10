@@ -43,6 +43,23 @@
   border: thin solid var(--BRAND-COLOR);
 }
 
+.input-icon {
+  margin: 1rem 0rem;
+  border-radius: initial;
+}
+
+.icon {
+  background-color: var(--BRAND-COLOR-LIGHT);
+  padding: 1.5rem;
+  padding: 1.6rem;
+  outline: thin solid var(--BRAND-COLOR-LIGHT);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
 .input:focus {
   outline: thin solid var(--BRAND-COLOR-LIGHT);
 }
