@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="../app.css">
+    <title>Avatar</title>
+</head>
+
+<body>
+    <div class="wrapper-pages">
+        <header class="main-header">
+            <h1>Zeta UI</h1>
+            <nav>
+                <a href="../index.html" class="link">HOME</a>
+                <a href="https://github.com/dhimanaishwarya/ZetaUI-Component-Library" class="link">GITHUB</a>
+            </nav>
+        </header>
+        <aside class="side">
+            <h2>Components</h2>
+            <a href="../pages/avatar.html" class="link main-nav-link">Avatar</a>
+            <a href="../pages/badge.html" class="link main-nav-link">Badge</a>
+            <a href="../pages/button.html" class="link main-nav-link ">Button</a>
+            <a href="../pages/alert.html" class="link main-nav-link">Alert</a>
+            <a href="../pages/card.html" class="link main-nav-link">Card</a>
+            <a href="../pages/image.html" class="link main-nav-link">Image</a>
+            <a href="../pages/input.html" class="link main-nav-link active">Input</a>
+        </aside>
+        <section class="section-pages content">
+            <h2 class="section-heading">Input</h2>
+            <p class="section-paragraph">Input components for taking input data from the user.
+            </p>
+            <section>
+                <h3 class="section-sub-heading">Textbox</h3>
+                <div class="textarea-wrapper">
+                    <label for="textarea"></label>
+                    <textarea id="textarea" class="textarea" name="textarea"
+                        placeholder="Write your comments here."></textarea>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522textarea-wrapper%2522%253E%250A%253Clabel%2520for%253D%2522textarea%2522%253E%253C%252Flabel%253E%250A%253Ctextarea%2520id%253D%2522textarea%2522%2520class%253D%2522textarea%2522%2520name%253D%2522textarea%2522%2520%250Aplaceholder%253D%2522Write%2520your%2520comments%2520here.%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section>
+                <h3 class="section-sub-heading">Simple Input</h3>
+                <div>
+                    <form class="form">
+                        <label for="email-input"></label>
+                        <input id="email-input" class="input" type="email" name="email"
+                            placeholder="Please enter your email" />
+                        <label for="pwd-input"></label>
+                        <input id="pwd-input" class="input" type="password" name="password"
+                            placeholder="Please enter your password" />
+                        <button class="btn btn-primary-solid">SUBMIT</button>
+                    </form>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%253Clabel%2520for%253D%2522email-input%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522email-input%2522%2520class%253D%2522input%2522%2520type%253D%2522email%2522%2520name%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Please%2520enter%2520your%2520email%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522pwd-input%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522pwd-input%2522%2520class%253D%2522input%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Please%2520enter%2520your%2520password%2522%2520%252F%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ESUBMIT%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">Error Input</h3>
+                <div>
+                    <form class="form">
+                        <span class="msg-error">Incorrect Email or Password</span>
+                        <label for="email-input"></label>
+                        <input id="email-input" class="input input-error" type="email" name="email"
+                            placeholder="Please enter your email" />
+                        <label for="pwd-input"></label>
+                        <input id="pwd-input" class="input input-error" type="password" name="password"
+                            placeholder="Please enter your password" />
+                        <button class="btn btn-primary-solid">SUBMIT</button>
+                    </form>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%253Cspan%2520class%253D%2522msg-error%2522%253EIncorrect%2520Email%2520or%2520Password%253C%252Fspan%253E%250A%253Clabel%2520for%253D%2522email-input%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522email-input%2522%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Please%2520enter%2520your%2520email%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522pwd-input%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522pwd-input%2522%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Please%2520enter%2520your%2520password%2522%2520%252F%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ESUBMIT%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">Input with Icon</h3>
+                <div>
+                    <form class="form">
+                        <div class="input-container">
+                            <label for="input-field"></label>
+                            <i class="fa fa-user icon"></i>
+                            <input id="input-field" class="input input-icon" type="text" placeholder="Username"
+                                name="username">
+                        </div>
+                        <div class="input-container">
+                            <label for="email-input"></label>
+                            <i class="fa fa-envelope icon"></i>
+                            <input id="email-input" class="input input-icon" type="text" placeholder="Email"
+                                name="email">
+                        </div>
+                        <div class="input-container">
+                            <label for="pwd-input"></label>
+                            <i class="fa fa-key icon"></i>
+                            <input id="pwd-input" class="input input-icon" type="password" placeholder="Password"
+                                name="password">
+                        </div>
+                    </form>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520for%253D%2522input-field%2522%253E%253C%252Flabel%253E%250A%253Ci%2520class%253D%2522fa%2520fa-user%2520icon%2522%253E%253C%252Fi%253E%250A%253Cinput%2520id%253D%2522input-field%2522%2520class%253D%2522input%2520input-icon%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Username%2522%2520name%253D%2522username%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Clabel%2520for%253D%2522email-input%2522%253E%253C%252Flabel%253E%250A%253Ci%2520class%253D%2522fa%2520fa-envelope%2520icon%2522%253E%253C%252Fi%253E%250A%253Cinput%2520id%253D%2522email-input%2522%2520class%253D%2522input%2520input-icon%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Email%2522%2520name%253D%2522email%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520for%253D%2522pwd-input%2522%253E%253C%252Flabel%253E%2520%2520%250A%253Ci%2520class%253D%2522fa%2520fa-key%2520icon%2522%253E%253C%252Fi%253E%250A%253Cinput%2520id%253D%2522pwd-input%2522%2520class%253D%2522input%2520input-icon%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520name%253D%2522password%2522%253E%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+        </section>
+        <footer class="footer">
+            &copy; 2022. Made with ❤
+        </footer>
+</body>
+
+</html>

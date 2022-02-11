@@ -1,0 +1,17 @@
+.img-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 20rem;
+}
+
+.img-round {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+}
+
+.img-square {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 10%;
+}
