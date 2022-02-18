@@ -137,4 +137,5 @@
   border: thin solid var(--BORDER-COLOR);
   transform: scale(1);
   overflow: hidden;
+  margin: 1.5rem 0rem;
 }
