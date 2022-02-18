@@ -9,6 +9,7 @@
 @import url(./image/image.css);
 @import url(./input/input.css);
 @import url(./textUtilities/textUtilities.css);
+@import url(./list/list.css);
 
 /* global color variables and font family */
 :root {
