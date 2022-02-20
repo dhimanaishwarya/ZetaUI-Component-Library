@@ -1,0 +1,8 @@
+.rating {
+  font-size: xx-large;
+  color: var(--ZINC-COLOR-DARK);
+}
+
+.rating-filled {
+  color: var(--YELLOW-COLOR);
+}
