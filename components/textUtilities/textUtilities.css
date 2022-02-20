@@ -1,0 +1,47 @@
+.heading-component {
+  margin: 8px 0px;
+}
+
+.text-l {
+  margin: 4px 0px;
+  font-size: larger;
+}
+
+.text-m {
+  margin: 4px 0px;
+  font-size: medium;
+}
+
+.text-sm {
+  margin: 4px 0px;
+  font-size: small;
+}
+
+.text-xs {
+  margin: 4px 0px;
+  font-size: x-small;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-green {
+  color: var(--GREEN-COLOR);
+}
+
+.text-red {
+  color: var(--BRAND-COLOR-DARK);
+}
+
+.text-grey {
+  color: var(--ZINC-COLOR-DARK);
+}

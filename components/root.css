@@ -10,6 +10,8 @@
 @import url(./input/input.css);
 @import url(./list/list.css);
 @import url(./rating/rating.css);
+@import url(./textUtilities/textUtilities.css);
+
 
 /* global color variables and font family */
 :root {
