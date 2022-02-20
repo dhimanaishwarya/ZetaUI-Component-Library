@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="../app.css">
+    <title>List</title>
+</head>
+
+<body>
+    <div class="wrapper-pages">
+        <header class="main-header">
+            <h1>Zeta UI</h1>
+            <nav>
+                <a class="link" href="../index.html">HOME</a>
+                <a class="link" href="https://github.com/dhimanaishwarya/ZetaUI-Component-Library">GITHUB</a>
+            </nav>
+        </header>
+        <aside class="side">
+
+            <h2>Components</h2>
+            <a href="../pages/avatar.html" class="link main-nav-link">Avatar</a>
+            <a href="../pages/badge.html" class="link main-nav-link">Badge</a>
+            <a href="../pages/button.html" class="link main-nav-link">Button</a>
+            <a href="../pages/alert.html" class="link main-nav-link">Alert</a>
+            <a href="../pages/card.html" class="link main-nav-link">Card</a>
+            <a href="../pages/image.html" class="link main-nav-link">Image</a>
+            <a href="../pages/input.html" class="link main-nav-link">Input</a>
+            <a href="../pages/list.html" class="link main-nav-link  active">List</a>
+            <a href="../pages/rating.html" class="link main-nav-link">Rating</a>
+        </aside>
+        <section class="section-pages content">
+            <h2 class="section-heading">Lists</h2>
+            <p class="section-paragraph">List component can be used to represent a number of items consecutively.</p>
+            <section>
+                <h3 class="section-sub-heading">Ordered List</h3>
+                <p>List can be numerically ordered</p>
+                <div>
+                    <ol>
+                        <li>Item One</li>
+                        <li>Item Two</li>
+                        <li>Item Three</li>
+                    </ol>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>List can be alphabetically ordered</p>
+                <div>
+                    <ol type="A">
+                        <li>Item One</li>
+                        <li>Item Two</li>
+                        <li>Item Three</li>
+                    </ol>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520type%253D%2522A%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">List without bullet</h3>
+                <div>
+                    <ul class="list-no-bullet">
+                        <li>Item One</li>
+                        <li>Item Two</li>
+                        <li>Item Three</li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-no-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%2520Three%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">Checked List</h3>
+                <div>
+                    <ul class="checked-list">
+                        <li class="checked-list-item">
+                            <label class="checked-list-input" for="list-item-one">
+                                <input class="checked-list-input" type="checkbox" name="category" id="list-item-one" />
+                                List Item One
+                            </label>
+                        </li>
+
+                        <li class="checked-list-item">
+                            <label class="checked-list-input" for="list-item-two">
+                                <input class="checked-list-input" type="checkbox" name="category" id="list-item-two" />
+                                List Item Two
+                            </label>
+                        </li>
+
+                        <li class="checked-list-item">
+                            <label class="checked-list-input" for="list-item-three">
+                                <input class="checked-list-input" type="checkbox" name="category"
+                                    id="list-item-three" />
+                                List Item Three
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522checked-list%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522checked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522checked-list-input%2522%2520for%253D%2522list-item-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522checked-list-input%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522category%2522%2520id%253D%2522list-item-one%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520List%2520Item%2520One%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522checked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522checked-list-input%2522%2520for%253D%2522list-item-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522checked-list-input%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522category%2522%2520id%253D%2522list-item-two%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520List%2520Item%2520Two%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522checked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522checked-list-input%2522%2520for%253D%2522list-item-three%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522checked-list-input%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522category%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522list-item-three%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520List%2520Item%2520Three%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">List with icon</h3>
+                <div>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check"></i>List Item One</li>
+                        <li><i class="fa-li fa fa-check"></i>List Item One</li>
+                        <li><i class="fa-li fa fa-check"></i>List Item One</li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522fa-ul%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa-li%2520fa%2520fa-check%2522%253E%253C%252Fi%253EList%2520Item%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa-li%2520fa%2520fa-check%2522%253E%253C%252Fi%253EList%2520Item%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa-li%2520fa%2520fa-check%2522%253E%253C%252Fi%253EList%2520Item%2520One%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            <section>
+                <h3 class="section-sub-heading">Stacked List</h3>
+                <div>
+                    <ul class="list-stacked">
+                        <li class="list-stacked-item">List Item One<button><i class="fa fa-times"></i></button></li>
+                        <li class="list-stacked-item">List Item Two<button><i class="fa fa-times"></i></button></li>
+                        <li class="list-stacked-item">List Item Three<button><i class="fa fa-times"></i></button></li>
+                        <li class="list-stacked-item">List Item Four<button><i class="fa fa-times"></i></button></li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked-item%2522%253EList%2520Item%2520One%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked-item%2522%253EList%2520Item%2520Two%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked-item%2522%253EList%2520Item%2520Three%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked-item%2522%253EList%2520Item%2520Four%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+        </section>
+        <footer class="footer">
+            &copy; 2022. Made with ❤
+        </footer>
+    </div>
+</body>
+
+</html>

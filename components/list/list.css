@@ -1,0 +1,53 @@
+.list-no-bullet {
+  list-style-type: none;
+}
+
+.list-no-bullet > li {
+  padding: 4px 0px;
+}
+
+.checked-list {
+  list-style: none;
+}
+
+.checked-list-item {
+  margin: 8px 0px;
+}
+
+.checked-list-input {
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+.list-stacked {
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  max-width: 40rem;
+  flex-direction: column;
+}
+
+.list-stacked-item {
+  display: flex;
+  font-size: large;
+  background-color: var(--BRAND-COLOR-LIGHT);
+  margin: 2px;
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 8px;
+  color: var(--FONT-COLOR);
+}
+
+.list-stacked-item > button {
+  background: none;
+  color: var(--BRAND-COLOR-DARK);
+  font-size: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.list-stacked-item > button:hover {
+  opacity: 0.4;
+}
