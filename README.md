@@ -5,6 +5,11 @@ Zeta UI offers a set of commonly used website UI components to help quickly get 
 
 This is component library which is made using HTML5 and CSS3.
 
+## Get Started
+
+Use components from Zeta UI by using stylesheet <link> in <head> tag before all other stylesheets.
+
+    <link rel="stylesheet" href="https://zeta-ui.netlify.app/components/root.css" />
 
 ## Components
 
